@@ -97,7 +97,7 @@ Change it like any other profile, or delete it.
 
 | Page | Keys | Dials |
 | --- | --- | --- |
-| Encoder | The feature groups, and the Connection key | The attributes of the selected feature group. Press a dial for the next set. |
+| Encoder | The feature groups, and the Connection key | The attributes of the selected feature group. Press the feature key again for the next page; press a dial for the attribute's next function (Wheel Spin …). |
 | Playbacks | Executors 101–104 and 201–204 on page 1, drawn as grandMA3 draws them | The faders of 201–204. Hold a dial in and turn to pick a cue; release to load it. |
 | Sequences | Sequence 1–8. Press = Go+, hold = Off. | Cue pickers for Sequence 1–3. Dial 4: hold and turn to scroll to 9–16 … |
 | Groups | Group 1–8 | Attributes on dials 1–3. Dial 4: hold and turn to scroll. |
