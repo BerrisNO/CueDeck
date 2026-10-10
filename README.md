@@ -51,11 +51,12 @@ and a touch strip.
 
 ### Playbacks, drawn as grandMA3 draws them
 
-An executor on a key shows what the playback window shows: executor and object number, the name, the previous, current
-and next cue, the master level and the key's function (on the small keys of a 15-key deck: the name, the current and
-the next cue, the level and the function). The current cue is blue while the sequence runs. The frame takes
-the object's Appearance colour — dimmed when the sequence is off. Pressing the key does whatever that key is set to in
-grandMA3 (Go+, Flash, Toggle, Temp …).
+An executor on a key shows what the playback window shows. Pressing it does whatever that key is set to in grandMA3
+(Go+, Flash, Toggle, Temp …). Small keys get a simplified drawing with larger text.
+
+<p align="center">
+  <img src="docs/images/wiki/executor-anatomy.png" alt="An executor key with its parts named: executor number, name, the cue before, the running cue, the next cue, master level, object number, Appearance colour, key function" width="742">
+</p>
 
 <p align="center">
   <img src="docs/images/playbacks.png" alt="Eight executor keys and four fader dials on a Stream Deck +" width="420">
@@ -78,10 +79,20 @@ On a Stream Deck +, every dial draws its own tile on the touch strip.
   <img src="docs/images/dials.png" alt="Touch strip tiles: an attribute encoder, a fader with its cue list, picking a cue to load, and the page wheel" width="900">
 </p>
 
-- **Encoder** — a programmer encoder. Left empty it follows the feature group selected in grandMA3; press for the next
-  set of attributes, hold and turn to fine-adjust.
+- **Encoder** — a programmer encoder. Left empty it follows the feature group selected in grandMA3. Hold and turn to
+  fine-adjust; press for the attribute's next function, as in the list beside each encoder in grandMA3:
+
+<p align="center">
+  <img src="docs/images/wiki/encoder-functions.png" alt="Gobo 1: function 1 of 5, press twice for Wheel Spin, turn to set it" width="804">
+</p>
+
 - **Fader** — an executor's master, a speed master, a group master. When the executor holds a sequence, its cues are
-  listed beside the knob. **Hold the dial in and turn** to pick a cue; release to load it for the next Go+.
+  listed beside the knob. **Hold the dial in and turn** to pick a cue; release to load it for the next Go+:
+
+<p align="center">
+  <img src="docs/images/wiki/fader-load.png" alt="Hold the dial in and turn to pick a cue, release to load it" width="851">
+</p>
+
 - **Page wheel** — turns through the sources that fill the Slot keys.
 
 ## Actions
@@ -109,8 +120,8 @@ The download includes one profile per Stream Deck model. They reference nothing 
 - **CueDeck Plus** (Stream Deck +) — five pages: Encoder, Playbacks, Sequences, Groups, Pools.
 - **CueDeck 15** (15 keys) — one page with a mode row: Playbacks, Sequences, Groups, presets.
 
-Double-click one to import it as a new profile, and change it like any other. [INSTALL.md](INSTALL.md) explains how to
-start on other executor or pool numbers.
+Double-click one to import it as a new profile, and change it like any other. Every page with a picture, and how to
+start on other executor or pool numbers: [Starter profiles](https://github.com/BerrisNO/CueDeck/wiki/Starter-profiles).
 
 ## Requirements
 

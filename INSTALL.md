@@ -68,6 +68,8 @@ the plugin follows the show to any other console or onPC.
 Tap the **CueDeck** plugin. It answers "Running", and within a few seconds the **Connection** key on the Stream Deck
 shows the name of your show. From here on every CueDeck key and dial is live.
 
+<img src="https://raw.githubusercontent.com/BerrisNO/CueDeck/main/docs/images/wiki/connection.png" width="594" alt="The four things the Connection key can say">
+
 The plugin keeps running until grandMA3 closes or another show is loaded.
 
 ### Let it start by itself (recommended)
@@ -93,30 +95,15 @@ that is open in grandMA3.
 Double-click the profile for your Stream Deck. It is added as a **new** profile; your own profiles are not changed.
 Change it like any other profile, or delete it.
 
-**CueDeck Plus** (Stream Deck +) has five pages. Swipe the touch strip to change page.
-
-| Page | Keys | Dials |
+| Profile | For | What it has |
 | --- | --- | --- |
-| Encoder | The feature groups, and the Connection key | The attributes of the selected feature group. Press the feature key again for the next page; press a dial for the attribute's next function (Wheel Spin …). |
-| Playbacks | Executors 101–104 and 201–204 on page 1, drawn as grandMA3 draws them | The faders of 201–204. Hold a dial in and turn to pick a cue; release to load it. |
-| Sequences | Sequence 1–8. Press = Go+, hold = Off. | Cue pickers for Sequence 1–3. Dial 4: hold and turn to scroll to 9–16 … |
-| Groups | Group 1–8 | Attributes on dials 1–3. Dial 4: hold and turn to scroll. |
-| Pools | Presets | Attributes on dials 1–3. Dial 4 picks the pool: Color, Position, Gobo, Beam, Dimmer. |
+| CueDeck Plus | Stream Deck + | Five pages: Encoder, Playbacks, Sequences, Groups, Pools. Swipe the touch strip to change page. |
+| CueDeck 15 | 15 keys | One page. The top row picks what the ten keys below show: Playbacks, Sequences, Groups or presets. |
 
-**CueDeck 15** (15 keys) is one page. The top row picks what the ten keys below show — **Playbacks**, **Sequences**,
-**Groups** or presets — and the square on the chosen key is lit. Press the preset key again for the next pool
-(Color, Position, Gobo, Beam, Dimmer). The last key in the row is the Connection key.
+<img src="https://raw.githubusercontent.com/BerrisNO/CueDeck/main/docs/images/hero.png" width="914" alt="The two starter profiles on a Stream Deck + and a 15-key Stream Deck">
 
-### Starting on other numbers
-
-The numbers above are only where the profiles start.
-
-- On the 15-key profile, open the settings of a key in the top row. Each line is `Name = first object`, for example
-  `Playbacks = Page *.201` or `Sequences = Sequence 1`. Change the number and all ten keys follow.
-  `Page *.201` means executor 201 on whichever page is active in grandMA3; `Page 1.201` pins it to page 1.
-- On Stream Deck +, the pages with a page wheel on dial 4 work the same way: the line is in the settings of dial 4.
-- On the **Playbacks** page of Stream Deck +, the first key of each row holds the start (`Page 1.101`, `Page 1.201`)
-  and the keys after it count on. Change those two keys, and the target of each fader dial.
+Every page with a picture, and how to make the profiles start on your own executor, sequence and preset numbers:
+[Starter profiles](https://github.com/BerrisNO/CueDeck/wiki/Starter-profiles).
 
 ## Network and firewall
 
