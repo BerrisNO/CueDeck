@@ -99,6 +99,9 @@ Change it like any other profile, or delete it.
 | --- | --- | --- |
 | CueDeck Plus | Stream Deck + | Five pages: Encoder, Playbacks, Sequences, Groups, Pools. Swipe the touch strip to change page. |
 | CueDeck 15 | 15 keys | One page. The top row picks what the ten keys below show: Playbacks, Sequences, Groups or presets. |
+| CueDeck XL | XL, 32 keys | Two pages: three rows of executors with shortcuts, and a mode row with the show's pools. Not tried on a real deck yet. |
+| CueDeck Neo | Neo, 8 keys | Five pages of eight: Playbacks, Sequences, Groups, Presets, Keys. Not tried on a real deck yet. |
+| CueDeck Mini | Mini, 6 keys | One page: a mode key, four keys that follow it, and the Connection key. Not tried on a real deck yet. |
 
 <img src="https://raw.githubusercontent.com/BerrisNO/CueDeck/main/docs/images/hero.png" width="914" alt="The two starter profiles on a Stream Deck + and a 15-key Stream Deck">
 

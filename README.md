@@ -25,7 +25,7 @@ Appearance colour, the running cue, the fader level — and draws it. Rename a g
 Load another show and the same layout fills itself with that show.
 
 CueDeck is a set of building blocks for **your own workflow**: drag the actions onto your keys and dials the way you
-work. Two starter profiles are included to begin from.
+work. Five starter profiles, one per Stream Deck model, are included to begin from.
 
 ## What you get depends on your Stream Deck
 
@@ -38,7 +38,7 @@ and a touch strip.
 | Executor key | Full: numbers, name, previous, current and next cue, level, function | As on the + | Simplified, with larger text: name, current and next cue, level, function |
 | Other keys | Normal text | Normal text | Larger text |
 | Dials and touch strip: Encoder, Fader with cue list and hold-to-load, Cue Picker, Parameter Wheel, Page Wheel | Yes | No | No |
-| Starter profile included | CueDeck Plus | No | CueDeck 15 |
+| Starter profile included | CueDeck Plus | CueDeck XL, CueDeck Neo | CueDeck 15, CueDeck Mini |
 
 - On a deck without dials, the dial actions can still be placed on a key, with less to them: a Fader key switches the
   level off and back, a Cue Picker key sends Go+, a Page Wheel key becomes a mode key, an Encoder key only shows the value.
@@ -106,7 +106,7 @@ Eleven actions, under **CueDeck** in the Stream Deck app:
 | **Page Wheel** | On a dial: turns through pages of sources (`Features`, `Groups = Group 1`, `Color = Preset 4.1`, `Playbacks = Page *.201` …). On a key it is a **mode key**. `Folders` turns groups 1–10 into pages of their sub-groups (group 3 → 300–310). |
 | **Select** | A feature group (Dimmer, Position, Gobo …) or a fixture group. A group key can own the Slot keys to its right, so each row is one fixture type with its sub-groups. |
 | **Object** | One object on a key: a **sequence** (name and running cue; Go+, Toggle, Flash …), an **executor**, or one of the show's **Quickeys**. |
-| **Command** | Any grandMA3 command on press, and optionally another on release. |
+| **Command** | Any grandMA3 command on press, and optionally another on release. Give it a name and it draws itself like the other keys. |
 | **Encoder** (dial) | A programmer encoder for the selected fixtures. |
 | **Fader** (dial) | An executor fader, with the cue list and hold-to-load. |
 | **Cue Picker** (dial) | Scroll through a sequence's cues without running anything; press to go to the one shown. |
@@ -119,9 +119,11 @@ The download includes one profile per Stream Deck model. They reference nothing 
 
 - **CueDeck Plus** (Stream Deck +) — five pages: Encoder, Playbacks, Sequences, Groups, Pools.
 - **CueDeck 15** (15 keys) — one page with a mode row: Playbacks, Sequences, Groups, presets.
+- **CueDeck XL**, **CueDeck Neo** and **CueDeck Mini** — the same idea sized for 32, 8 and 6 keys. These three have not been tried on real decks yet.
 
 Double-click one to import it as a new profile, and change it like any other. Every page with a picture, and how to
 start on other executor or pool numbers: [Starter profiles](https://github.com/BerrisNO/CueDeck/wiki/Starter-profiles).
+How to work with each model: [Guides](https://github.com/BerrisNO/CueDeck/wiki/Guides).
 
 ## Requirements
 
