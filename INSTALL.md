@@ -15,6 +15,9 @@ There is no OSC to configure and there are no IP addresses to type in.
 | `grandMA3/CueDeck.xml` and `grandMA3/CueDeck.lua` | The grandMA3 plugin. Always keep the two files together. |
 | `Profiles/CueDeck Plus.streamDeckProfile` | A starter profile for Stream Deck +. Optional. |
 | `Profiles/CueDeck 15.streamDeckProfile` | A starter profile for the 15-key Stream Deck. Optional. |
+| `Profiles/CueDeck XL.streamDeckProfile` | A starter profile for Stream Deck XL. Optional. |
+| `Profiles/CueDeck Neo.streamDeckProfile` | A starter profile for Stream Deck Neo. Optional. |
+| `Profiles/CueDeck Mini.streamDeckProfile` | A starter profile for Stream Deck Mini. Optional. |
 | `INSTALL.md` | This guide. |
 
 ## Requirements
