@@ -18,5 +18,4 @@
   <circle cx="338" cy="174" r="172" fill="url(#cd-glow)"/>
   <rect x="268" y="104" width="140" height="140" rx="26" fill="#F2A33A"/>
   <path d="M322 148 L322 200 L366 174 Z" fill="#10151C"/>
-  <circle cx="392" cy="120" r="13" fill="#35D07F" stroke="#0C1116" stroke-width="4"/>
 </svg>
