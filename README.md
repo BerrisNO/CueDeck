@@ -44,8 +44,8 @@ and a touch strip.
   level off and back, a Cue Picker key sends Go+, a Page Wheel key becomes a mode key, an Encoder key only shows the value.
 - The text size follows the model by itself. It can be forced to normal or large for all decks in the settings of the
   **Connection** key.
-- CueDeck is developed on a Stream Deck + and a Stream Deck Module 15. The other models run the same code, but have
-  not been tried.
+- CueDeck is developed on Windows, on a Stream Deck + and a Stream Deck Module 15. The other models, and macOS, run
+  the same code but have not been tried.
 
 ## What it looks like
 
@@ -127,7 +127,8 @@ How to work with each model: [Guides](https://github.com/BerrisNO/CueDeck/wiki/G
 
 ## Requirements
 
-- Elgato **Stream Deck** software 7.1 or newer, on Windows 10 or newer. A Stream Deck + is recommended for the dials.
+- Elgato **Stream Deck** software 7.1 or newer, on Windows 10 or newer, or macOS 13 or newer. On macOS, CueDeck has
+  not been tried yet. A Stream Deck + is recommended for the dials.
 - **grandMA3 2.5** or newer — onPC on Windows or macOS, or a console.
 - If grandMA3 runs on another machine than the Stream Deck, both on the same network.
 

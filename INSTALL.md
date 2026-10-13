@@ -19,7 +19,8 @@ There is no OSC to configure and there are no IP addresses to type in.
 
 ## Requirements
 
-- Elgato **Stream Deck** software 7.1 or newer, on **Windows 10 or newer**. A Stream Deck + is recommended for the dials.
+- Elgato **Stream Deck** software 7.1 or newer, on **Windows 10 or newer** or **macOS 13 or newer**. CueDeck is
+  developed on Windows; on macOS it has not been tried yet. A Stream Deck + is recommended for the dials.
 - What you get depends on the model. Only the Stream Deck + has dials and a touch strip, so the Encoder, the Fader with
   its cue list, the Cue Picker and the Parameter Wheel need that model. On the small keys of a 15-key Stream Deck, a
   Module 15 or a Mini, an executor key shows less — name, current and next cue, level — in larger text.
@@ -103,7 +104,7 @@ Change it like any other profile, or delete it.
 | CueDeck Neo | Neo, 8 keys | Five pages of eight: Playbacks, Sequences, Groups, Presets, Keys. Not tried on a real deck yet. |
 | CueDeck Mini | Mini, 6 keys | One page: a mode key, four keys that follow it, and the Connection key. Not tried on a real deck yet. |
 
-<img src="https://raw.githubusercontent.com/BerrisNO/CueDeck/main/docs/images/hero.png" width="914" alt="The two starter profiles on a Stream Deck + and a 15-key Stream Deck">
+<img src="https://raw.githubusercontent.com/BerrisNO/CueDeck/main/docs/images/hero.png" width="914" alt="Two of the starter profiles, on a Stream Deck + and a 15-key Stream Deck">
 
 Every page with a picture, and how to make the profiles start on your own executor, sequence and preset numbers:
 [Starter profiles](https://github.com/BerrisNO/CueDeck/wiki/Starter-profiles).
@@ -118,8 +119,8 @@ CueDeck uses two UDP ports:
 | UDP **8001** | on the Stream Deck computer | answers from grandMA3, and the broadcast grandMA3 sends so it can be found |
 
 - When grandMA3 onPC and the Stream Deck are on the **same computer**, nothing needs to be set up.
-- Across a network, a firewall on either computer must allow these ports. If Windows asks whether Stream Deck or
-  grandMA3 onPC may use the network, allow it for private networks.
+- Across a network, a firewall on either computer must allow these ports. If Windows or macOS asks whether Stream Deck
+  or grandMA3 onPC may use the network, allow it (on Windows: for private networks).
 - grandMA3 announces itself with a broadcast every two seconds. Some networks — managed switches, guest Wi-Fi, VPNs —
   do not pass broadcasts. In that case open the settings of the **Connection** key and type the IP address of the
   grandMA3 machine into **Fixed IP**.
