@@ -104,7 +104,7 @@ Eleven actions, under **CueDeck** in the Stream Deck app:
 | **Connection** | Shows the show that is connected, and lets you pick which grandMA3 to control. Its settings hold the setup guide. |
 | **Slot** | A key with nothing to set up: it shows object no. *n* from the page the Page Wheel or a mode key is on — a group, a preset, a sequence, an executor, a Quickey. It can also start its own range (`Page 1.201`) that the Slots after it count on from, and you can pick what a press sends (Go+, Flash, Toggle …) instead of the automatic choice. |
 | **Page Wheel** | On a dial: turns through pages of sources (`Features`, `Groups = Group 1`, `Color = Preset 4.1`, `Playbacks = Page *.201` …). On a key it is a **mode key**. `Folders` turns groups 1–10 into pages of their sub-groups (group 3 → 300–310). |
-| **Select** | A feature group (Dimmer, Position, Gobo …) or a fixture group. A group key can own the Slot keys to its right, so each row is one fixture type with its sub-groups. |
+| **Select** | A feature group (Dimmer, Position, Gobo …) or a fixture group. Press the selected feature group again for its next page of attributes; the key shows which page it is on. A group key can own the Slot keys to its right, so each row is one fixture type with its sub-groups. |
 | **Object** | One object on a key: a **sequence** (name and running cue; Go+, Toggle, Flash …), an **executor**, or one of the show's **Quickeys**. |
 | **Command** | Any grandMA3 command on press, and optionally another on release. Give it a name and it draws itself like the other keys. |
 | **Encoder** (dial) | A programmer encoder for the selected fixtures. |
