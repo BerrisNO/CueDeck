@@ -44,8 +44,8 @@ and a touch strip.
   level off and back, a Cue Picker key sends Go+, a Page Wheel key becomes a mode key, an Encoder key only shows the value.
 - The text size follows the model by itself. It can be forced to normal or large for all decks in the settings of the
   **Connection** key.
-- CueDeck is developed on Windows, on a Stream Deck + and a Stream Deck Module 15. The other models, and macOS, run
-  the same code but have not been tried.
+- CueDeck is developed on Windows, on a Stream Deck + and a Stream Deck Module 15, and a tester has run it on a
+  Stream Deck XL with keys set up by hand. The other models, and macOS, run the same code but have not been tried.
 
 ## What it looks like
 
